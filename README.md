@@ -35,3 +35,8 @@ There is nothing to install. The app is a single offline HTML file and does not 
 Processing happens locally in the browser. Current Chromium, Edge, Firefox, and other modern browsers are recommended. The browser must support Canvas, Web Workers, Blob downloads, and standard compression APIs for the best result; the app falls back to uncompressed PVEC data if gzip compression is unavailable.
 
 [Detailed documentation](README-DETAILS.md) · [All releases](https://github.com/FajkPes/PVEC-Polygen/releases)
+
+## Credits
+
+**Idea, concept and design:** FajkPes  
+**Coding:** ChatGPT Codex, Claude and Google Antigravity
