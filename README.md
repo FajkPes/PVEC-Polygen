@@ -36,6 +36,24 @@ Processing happens locally in the browser. Current Chromium, Edge, Firefox, and 
 
 [Detailed documentation](README-DETAILS.md) · [All releases](https://github.com/FajkPes/PVEC-Polygen/releases)
 
+## Choosing a format
+
+- **SVG** is the standard vector format and is best for other design software.
+- **PVEC** is PolyVec's compact custom binary format. It preserves the polygon result for reopening in this app, but other applications may not understand it.
+- **PNG** is a rendered raster export and is not resolution-independent.
+
+The final size depends on image complexity and settings. A higher detail level does not always produce a smaller file.
+
+## Settings guidance
+
+- Increase **Color sensitivity** and **Max. vertices per shape** for more faithful outlines.
+- Increase **Gradient and texture smoothing** when skies, noise, or soft light create too many tiny polygons.
+- Increase **Merge nearby vertices** or **Tiny-shape removal threshold** to reduce complexity and file size.
+- Keep **Removal color tolerance** low when small contrasting details such as eyes, highlights, or text matter.
+- Increase **Color background resolution** to hide small gaps more accurately at the cost of a larger file.
+
+No external settings file needs to be imported or applied; presets and defaults are built into the app.
+
 ## Credits
 
 **Idea, concept and design:** FajkPes  
